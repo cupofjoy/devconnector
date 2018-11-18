@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const mongooes = require('mongoose');
-const passport = rquire('passport');
+const passport = require('passport');
 
 // Post model
 const Post = require('../../models/Post')
