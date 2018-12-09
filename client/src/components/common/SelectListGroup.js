@@ -41,7 +41,7 @@ SelectListGroup.propTypes = {
   info: PropTypes.string,
   error: PropTypes.string,
   onChange: PropTypes.func.isRequired,
-  options: PropTyles.array.isRequired
+  options: PropTypes.array.isRequired
 }
 
 export default SelectListGroup;
