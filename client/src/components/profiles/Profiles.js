@@ -16,10 +16,10 @@ class Profiles extends Component {
     if(profiles === null || loading) {
       profileItems = <Spinner />
     } else {
-      if(profiles.length > 0) {
-        <h1>PROFILES HERE</h1>
+      if (profiles.length > 0) {
+        profileItems = <h1>PROFILES HERE</h1>;
       } else {
-        ProfileItems = <h4>No Profiles found...</h4>
+        profileItems = <h4>No Profiles found...</h4>
       }
     }
 
@@ -32,6 +32,7 @@ class Profiles extends Component {
               <p className="lead text-center">
                 Browse and connect with developers
               </p>
+              { profileItems }
             </div>
           </div>
         </div>
