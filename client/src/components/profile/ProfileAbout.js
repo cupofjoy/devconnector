@@ -41,4 +41,9 @@ class ProfileAbout extends Component {
     )
   }
 }
- export default ProfileAbout;
+
+ProfileAbout.propTypes = {
+  profile: PropTypes.object.isRequired
+}
+
+export default ProfileAbout;
