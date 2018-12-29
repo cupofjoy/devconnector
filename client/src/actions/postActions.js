@@ -21,4 +21,4 @@ export const addPost = postData => dispatch => {
         payload: err.response.data
       })
     );
-}
+};
