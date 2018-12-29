@@ -33,8 +33,6 @@ class PostForm extends Component {
       avatar: user.avatar
     };
 
-    console.log('submit', newPost);
-
     this.props.addPost(newPost);
     this.setState({ text: '' });
   }
