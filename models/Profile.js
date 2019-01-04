@@ -74,8 +74,9 @@ const ProfileSchema = new Schema({
         type: String,
         required: true
       },
-      location: {
-        type: String
+      fieldofstudy: {
+        type: String,
+        required: true
       },
       from: {
         type: Date,
@@ -116,4 +117,4 @@ const ProfileSchema = new Schema({
   }
 });
 
-module.exports = Profile = mongoose.model('profile', ProfileSchema)
+module.exports = Profile = mongoose.model('profile', ProfileSchema);
