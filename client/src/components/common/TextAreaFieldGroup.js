@@ -22,12 +22,10 @@ const TextAreaFieldGroup = ({
         onChange={onChange}
       />
       {info && <small className="form-text text-muted">{info}</small>}
-      {error && (
-        <div className="invalid-feedback">{error}</div>
-      )}
+      {error && <div className="invalid-feedback">{error}</div>}
     </div>
-  )
-}
+  );
+};
 
 TextAreaFieldGroup.propTypes = {
   name: PropTypes.string.isRequired,
@@ -36,6 +34,6 @@ TextAreaFieldGroup.propTypes = {
   info: PropTypes.string,
   error: PropTypes.string,
   onChange: PropTypes.func.isRequired
-}
+};
 
 export default TextAreaFieldGroup;

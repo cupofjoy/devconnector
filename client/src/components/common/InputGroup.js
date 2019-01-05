@@ -27,25 +27,23 @@ const InputGroup = ({
         value={value}
         onChange={onChange}
       />
-      {error && (
-        <div className="invalid-feedback">{error}</div>
-      )}
+      {error && <div className="invalid-feedback">{error}</div>}
     </div>
-  )
-}
+  );
+};
 
 InputGroup.propTypes = {
   name: PropTypes.string.isRequired,
   placeholder: PropTypes.string,
   value: PropTypes.string.isRequired,
   icon: PropTypes.string,
-  type: PropTypes.string.isRequired,
   error: PropTypes.string,
+  type: PropTypes.string.isRequired,
   onChange: PropTypes.func.isRequired
-}
+};
 
 InputGroup.defaultProps = {
   type: 'text'
-}
+};
 
 export default InputGroup;
