@@ -16,18 +16,18 @@
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
-    "body-parser": "^1.18.3",
-    "concurrently": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.0.0",
     "event-stream": "^4.0.1",
-    "express": "^4.16.4",
-    "gravatar": "^1.6.0",
-    "jsonwebtoken": "^8.4.0",
-    "mongoose": "^5.3.12",
+    "express": "^4.17.1",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.3",
     "passport": "^0.4.0",
     "passport-jwt": "^4.0.0",
     "validator": "^11.1.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.6"
+    "nodemon": "^1.19.3"
   }
 }
